@@ -12,7 +12,7 @@ This project computes the axial electrostatic potential between the collisional 
 4. Run the stationary and time-dependent study by selecting compute within the Study 1 node. 
 5. Clear the density and volume tables in the results node after each run, and recompute them by evaluting the Density Volume Integration and Volume Integration features under derived values.
 6. Create Excel files under the names density_integral.csv and slice_volume.csv 
-7. Specify the filepaths to the Excel files created in step 6 under the density export and volume export features in the Export node. Export the data by selecting export.
+7. Specify the filepaths to the Excel files created in step 6 under the density export and volume export features in the Export node. Make sure the "Include Header" feature is deselected. Export the data by selecting export.
 8. Update the filepaths to density_integral.csv and slice_volume.csv in axialpotentialpost-processing.py
 9. Run axialpotentialpost-processing.py
    - !!Note, do not run axialpotentialpost-processing.py multiple times between COMSOL studies!!
